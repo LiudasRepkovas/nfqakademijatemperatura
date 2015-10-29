@@ -1,0 +1,19 @@
+<style>
+    div{
+        padding: 20px;
+    }
+</style>
+
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    {{ form_end(form) }}
+
+<div>
+    <h1>Temperatūra adresu :
+        "{{ foundAddress.streetName }} {{ foundAddress.streetNumber }} {{ foundAddress.locality }} {{ foundAddress.postalCode }}"
+        <br>
+        <span style="color:red">{{ temperature }} ° C</span>
+
+    </h1>
+
+</div>

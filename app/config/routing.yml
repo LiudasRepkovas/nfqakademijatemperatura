@@ -1,0 +1,4 @@
+forecast:
+    resource: "@forecastBundle/Controller/"
+    type:     annotation
+    prefix:   /
